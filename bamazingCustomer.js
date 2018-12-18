@@ -14,9 +14,9 @@ var connection = mysql.createConnection({
 connection.connect(function (err) {
   if (err) throw err;
   // What to do on connection;
-
-  greeting();
-  buy();
+  console.log("connected")
+  // greeting();
+  // buy();
 
   connection.end();
 });
@@ -71,7 +71,7 @@ function buy() {
           console.log("Coming right up!");
           var query = connection.query(
             "UPDATE products SET stock_quantity = stock_quantity - amountToBuy WHERE ?", { item_id: answer.buyItemId }, function (err, res) {
-
+421
             // console.log(res.affectedRows + " products updated!\n")
           var totalCost = parseInt(answer.amountToBuy) * parseInt(answer.price)
           console.log("Your total is: \n\n$" + totalCost)
