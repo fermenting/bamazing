@@ -1,0 +1,20 @@
+{
+  "name": "bamazing",
+  "version": "1.0.0",
+  "description": "mysql exploration involving products, inventory management, &amp; different roles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fermenting/bamazing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fermenting/bamazing/issues"
+  },
+  "homepage": "https://github.com/fermenting/bamazing#readme"
+}
